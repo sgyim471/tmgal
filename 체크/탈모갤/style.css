@@ -1,0 +1,102 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+/* 기본설정 */
+
+.intro_bg{
+    background-image: url("../사진/백.png");
+    background-size: cover;
+    height:540px;
+}
+/* 배경 이미지  */
+
+.header{
+    display:flex;
+    /* 검색이랑 목록 옆으로 구분시키기 */
+    width:1280px;
+    margin:auto;
+    height:86px;
+}
+/* 상단부 전체 */
+
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius:5px;
+    margin-top: 24px;
+}
+/* 검색창 설정 */
+
+
+.searchArea > form > input{
+    border:none;
+    width:250px;
+    height:40px ;
+    background:rgba(0,0,0,0.0);
+    padding-left: 10px;
+}
+/* 검색창 글자 입력 부분 설정 */
+
+.searchArea > form > span{
+    width:50px;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* 검색창 검색 글자 부분 설정 */
+
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    line-height: 86px;  
+    width:calc(1280px - 300px);
+}
+/* 목록 설정 */
+
+.nav > li{
+    margin-left: 84px;
+}
+/* 목록끼리 설정-간격 */
+
+.nav > li > a{
+    color:#000;
+}
+/* 목록 글자 색 */
+
+.intro_text{
+    width:100%;
+    padding: 30px;
+    margin:480px auto 231px auto;
+    background: linear-gradient( 45deg,#ffecd2,#fcb69f );
+    box-shadow: 0px 8px 33px #999;
+    text-align: center;
+}
+/* 사이트 텍스트 배경 설정 */
+
+.intro_text > h1,
+.intro_text > h4{
+    color:#000;
+}
+/* 사이트 텍스트 글자 설정 */
+
+.img > h2{
+    font-weight:bolder;
+    position: relative;
+    top: 220px;
+    left: 100px;
+}
+.img > img{
+    width: auto; height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 180px;
+    margin-left: 40px;
+}
